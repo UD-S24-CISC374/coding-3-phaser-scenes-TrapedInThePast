@@ -5,7 +5,7 @@ export default class MainScene extends Phaser.Scene {
 
     create() {
         this.cameras.main.setBackgroundColor("#4ba9e4");
-        let bg = this.add
+        this.add
             .sprite(0, 0, "atlas", "sky")
             .setScrollFactor(0)
             .setOrigin(0)

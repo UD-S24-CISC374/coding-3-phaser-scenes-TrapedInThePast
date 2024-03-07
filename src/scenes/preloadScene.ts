@@ -19,7 +19,7 @@ export default class PreloadScene extends Phaser.Scene {
     create() {
         this.scene.start("MainScene");
         this.scene.start("GameOver");
-        this.scene.start("GBackgroundScene");
+        this.scene.start("BackgroundScene");
     }
 
     update() {}
